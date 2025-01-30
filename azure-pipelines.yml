@@ -9,7 +9,7 @@ pool:
 steps:
   - task: Docker@2
     inputs:
-      containerRegistry: 'Saquib Ahmed Khan'
+      containerRegistry: 'Saquib-Ahmed-Khan'
       repository: 'dccloudsaquibacr/my-app'
       command: 'buildAndPush'
       Dockerfile: '**/Dockerfile'
