@@ -9,7 +9,7 @@ pool:
 steps:
   - task: Docker@2
     inputs:
-      containerRegistry: 'dccloudsaquibacr'
+      containerRegistry: 'newconnectionsaquib'
       repository: 'dccloudsaquibacr/my-app'
       command: 'buildAndPush'
       Dockerfile: '**/Dockerfile'
